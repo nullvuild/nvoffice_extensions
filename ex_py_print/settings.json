@@ -1,0 +1,6 @@
+{
+    "description": "챗 모듈",
+    "entry": "main.py",
+    "name": "ex_py_print",
+    "runtime": "python"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ex_py_infile_xl_indexer",
+  "description": "엑셀 파일에 Index 시트를 자동 생성",
+  "entry": "main.py",
+  "runtime": "python"
+}

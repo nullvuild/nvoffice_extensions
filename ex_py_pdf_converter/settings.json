@@ -1,0 +1,1 @@
+{"name":"ex_py_pdf_converter","description":"PyPDF2와 pdfplumber로 PDF를 마크다운으로 변환","entry":"main.py","runtime":"python"}

@@ -1,0 +1,6 @@
+{
+  "name": "GUI App",
+  "description": "Python GUI using tkinter",
+  "entry": "main.py",
+  "runtime": "python"
+}

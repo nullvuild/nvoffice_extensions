@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel Indexer</title>
+  <style>
+    .ext-excel-indexer { font-family: sans-serif; margin: 30px; }
+    .ext-excel-indexer label { font-weight: bold; }
+    .ext-excel-indexer button { margin-top: 10px; }
+  </style>
+</head>
+<body class="ext-excel-indexer">
+  <h2>엑셀 Index 시트 자동 생성</h2>
+  <div>
+    <label>엑셀 파일 선택:
+      <input type="file" id="excel-file" accept=".xlsx,.xlsm" multiple />
+    </label>
+  </div>
+  <button class="run-button" id="run-indexer">Index 시트 만들기</button>
+  <pre id="output"></pre>
+  <!-- 이벤트 바인딩 및 실행 로직은 renderer.js에서 처리됩니다. -->
+</body>
+</html>

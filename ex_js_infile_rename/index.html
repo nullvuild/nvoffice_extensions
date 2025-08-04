@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Postfix Renamer</title>
+  <style>
+    .ext-postfix-renamer { font-family: sans-serif; margin: 30px; }
+    .ext-postfix-renamer label { font-weight: bold; }
+    .ext-postfix-renamer button { margin-top: 10px; }
+  </style>
+</head>
+<body class="ext-postfix-renamer">
+  <h2>파일명에 POSTFIX 붙이기</h2>
+  <div>
+    <label>파일 선택:
+      <input type="file" id="target-files" multiple />
+    </label>
+  </div>
+  <div>
+    <label>POSTFIX:
+      <input type="text" id="postfix" placeholder="예: _완료" />
+    </label>
+  </div>
+  <button class="run-button" id="run-postfix">POSTFIX 붙이기</button>
+  <pre id="output"></pre>
+  <!-- 이벤트 바인딩은 renderer.js에서 처리 -->
+</body>
+</html>

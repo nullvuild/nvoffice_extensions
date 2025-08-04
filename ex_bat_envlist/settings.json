@@ -1,0 +1,6 @@
+{
+  "name": "ex_bat_envlist",
+  "description": "현재 환경 변수 목록을 출력합니다.",
+  "entry": "main.bat",
+  "runtime": "bat"
+}

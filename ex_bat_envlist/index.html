@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>환경 변수 리스트</title>
+  <style>
+    .ext-env-list { font-family: sans-serif; margin: 30px; }
+    .ext-env-list label { font-weight: bold; }
+    .ext-env-list button { margin-top: 10px; }
+    pre#output {
+      white-space: pre-wrap;
+      word-break: break-all;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body class="ext-env-list">
+  <h2>환경 변수 리스트 출력</h2>
+  <button class="run-button" id="run-env-list">환경 변수 출력</button>
+  <pre id="output"></pre>
+  <!-- 이벤트 바인딩은 renderer.js에서 처리 -->
+</body>
+</html>

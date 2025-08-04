@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>GUI App Extension</title>
+  <style>
+    body { font-family: sans-serif; margin: 30px; }
+    #folder { font-weight: bold; color: #1976d2; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>폴더 경로 출력 예제</h2>
+  <div>
+    <label>선택한 폴더: <span id="folder">(없음)</span></label>
+  </div>
+  <button class="nav-button" id="select-folder">폴더 선택</button>
+  <button class="run-button" id="run-python">Python 실행</button>
+  <pre id="output"></pre>
+</body>
+</html>
